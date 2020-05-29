@@ -1,0 +1,7 @@
+export const FETCH_POKEMON: string = 'FETCH_POKEMON'
+export const FETCH_POKEMON_ID: string = 'FETCH_POKEMON_ID'
+export const FETCH_ABILITY: string = 'FETCH_ABILITY'
+export const FETCH_SUCCESS: string = 'FETCH_SUCCESS'
+export const FETCH_REQUEST: string = 'FETCH_REQUEST'
+export const FETCH_ERROR: string = 'FETCH_ERROR'
+export const CHANGE_FILTER: string = 'CHANGE_FILTER'

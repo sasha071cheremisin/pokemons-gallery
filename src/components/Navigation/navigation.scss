@@ -1,0 +1,38 @@
+.navigation {
+	padding: 10px 10px 40px;
+	color: white;
+	display: flex;
+	align-items: center;
+
+	&__about {
+		display: flex;
+		align-items: center;
+	}
+
+	&__image {
+		width: 100px;
+		height: 100px;
+		background-image: url("../../images/logo.png");
+		background-size: cover;
+	}
+
+	&__title {
+		font-family: "Roboto-Bold", serif;
+		font-size: 24px;
+		text-transform: uppercase;
+		margin: 0 20px;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	&__list {
+		display: flex;
+		margin: 0 -5px;
+		font-size: 18px;
+		font-family: "Roboto-Italic", serif;
+
+		&-item {
+			margin: 0 5px;
+		}
+	}
+}

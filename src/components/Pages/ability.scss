@@ -1,0 +1,15 @@
+.ability {
+	color: #3776a1;
+
+	&__button {
+		outline: none;
+		background-color: #3776a1;
+		color: white;
+		font-family: "Roboto-Bold", serif;
+		padding: 5px 10px;
+		border-radius: 5px;
+		margin: 10px 0;
+		border: none;
+		cursor: pointer;
+	}
+}

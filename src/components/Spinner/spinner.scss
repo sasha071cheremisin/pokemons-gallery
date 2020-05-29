@@ -1,0 +1,24 @@
+.spinner {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+
+	&__border {
+		display: inline-block;
+		width: 2rem;
+		height: 2rem;
+		border: .25em solid #3776a1;
+		border-right-color: transparent;
+		border-radius: 50%;
+		animation: spinner-border .75s linear infinite;
+	}
+}
+
+@keyframes spinner-border {
+	100% {
+		transform: rotate(360deg);
+	}
+}
